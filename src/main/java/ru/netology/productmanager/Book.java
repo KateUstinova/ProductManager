@@ -1,8 +1,10 @@
+package ru.netology.productmanager;
+
 public class Book extends Product {
     private String author;
 
-    public Book(int id, String name, int price, String author, String title) {
-        super(id, name, price, title);
+    public Book(int id, String name, int price, String author) {
+        super(id, name, price);
         this.author = author;
     }
 }

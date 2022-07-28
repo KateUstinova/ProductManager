@@ -1,4 +1,4 @@
-package ru.netology.productmanager;
+package ru.netology.repository;
 
 import ru.netology.productmanager.Product;
 public class ProductRepository {
